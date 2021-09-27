@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  background: #17222D;
+  padding: 20px 0;
+}
+
+.header-bg {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.titulo a {
+  font-size: 48px;
+  color: #FFFFFF;
+  margin: 0 0 0 10px ;
+}
+
+/* Section */
+.geral {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.corpo {
+  margin: 0 10px 0 10px;
+}
+
+/* Info */
+.inform {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.definicao {
+  margin: 20px 0 0 0;
+  border-bottom: 2px solid #BBCCDD;
+}
+
+.definicao h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #17222D;
+  border-bottom: 3px solid  #269BFF;
+  display: inline;
+}
+
+.definicao p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #445566;
+  margin-bottom: 20px;
+}
+
+.tabela {
+  margin: 20px 0 0 0;
+}
+
+.tabela h1 {
+  border-bottom: 3px solid  #269BFF;
+  display: inline;
+  font-size: 36px;
+  font-weight: bold;
+  color: #17222D;
+}
+
+.tabela p {
+  color: #FFFFFF;
+  font-weight: bold;
+  background: #17222D;
+  border-radius: 5px;
+  padding: 10px 0 10px 15px;
+  margin-top: 20px;
+}
+
+.ajustes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ajustes-table th {
+  text-align: left;
+  font-size: 18px;
+  color: #445566;
+  font-weight: bold;
+  padding: 10px 0px 10px 8px;
+  border-bottom: 3px solid #BBCCDD;
+}
+
+.ajustes-table th span {
+  font-size: 16px;
+}
+
+.ajustes-table td {
+  font-size: 14px;
+  font-weight: bold;
+  color: #445566;
+  padding: 10px 0px 10px 8px;
+  border-bottom: 2px solid #BBCCDD;
+}
+
+/* Imc */
+.imc {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.calculadora-imc {
+  margin: 20px 0px 0px 0px;
+  max-width: 960px;
+}
+
+.imc h1 {
+  border-bottom: 3px solid  #269BFF;
+  display: inline;
+  font-size: 36px;
+  font-weight: bold;
+  color: #17222D;
+}
+
+.imc form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+form .info {
+  font-size: 16px;
+  font-weight: bold;
+  color: #445566;
+}
+
+form input {
+  background: #EFF4F9;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #17222D;
+}
+
+form #campo::placeholder {
+  color: #BBCCDD;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+form #button {
+  margin-top: 5px;
+  border: none;
+  max-width: 960px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px 0;
+  background: #0468CC;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+form #button:hover {
+  background: #0454CC;
+}
+
+/* Resultado */
+.resultado {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultado h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #17222D;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #17222D;
+  color: #FFFFFF;
+  padding: 15px 0px 15px 0;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.footer .paragrafo {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0 0 0 10px;
+}
+
+/* Javascript */
+
+.obesidade-grave {
+  background: #CC0404;
+  font-size: 16px;
+  color:#FFFFFF;
+  font-weight: normal;
+  padding: 20px 15px 40px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.obesidade {
+  background: #FF4D26;
+  font-size: 16px;
+  color:#FFFFFF;
+  font-weight: normal;
+  padding: 20px 15px 40px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sobrepeso {
+  background: #FF6726;
+  font-size: 16px;
+  color:#FFFFFF;
+  font-weight: normal;
+  padding: 20px 15px 40px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.normal {
+  background: #14CC04;
+  font-size: 16px;
+  color:#FFFFFF;
+  font-weight: normal;
+  padding: 20px 15px 40px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.magreza {
+  background: #8004CC;
+  font-size: 16px;
+  color:#FFFFFF;
+  font-weight: normal;
+  padding: 20px 15px 40px 15px;
+  border-radius: 5px;
+  text-align: center;
+}  
+
+.negrito {
+  font-weight: bold;
+}

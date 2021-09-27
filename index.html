@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora-IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-bg">
+      <div class="titulo">
+        <a href="index.html">Calculadora</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="geral">
+    <div class="corpo" id="#corpo">
+
+      <div class="inform">
+
+        <div class="definicao">
+          <h1 class="titulo">Indice de massa corporal</h1>
+          <p>
+              O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. Desenvolvido pelo polímata Lambert Quételet no fim do século XIX, trata-se de um método fácil e rápido para a avaliação do nível de gordura de cada pessoa, sendo, por isso, um preditor internacional de obesidade adotado pela Organização Mundial da Saúde (OMS).<br><br>
+  
+              De acordo com o endocrinologista Mario Kedhi Carra, membro da Associação Brasileira para o Estudo da Obesidade e da Síndrome Metabólica (ABESO), essa é uma medida universal de classificação de obesidade, validada pela Organização Mundial da Saúde.<br><br>
+  
+              É possível encontrar o resultado do índice fazendo uma conta que  envolve a relação do peso de uma pessoa em quilos com a sua altura ao quadrado. Por exemplo, um adulto que pesa 70 kg e cuja altura é 1,75 m terá um IMC de 22,9.
+          </p>
+        </div>
+
+        <div class="tabela">
+          <h1 class="titulo">Tabela de Classificação</h1>
+          <p>OBSERVE A INTERPRETAÇÃO DO IMC</p>
+  
+            <table class="ajustes-table">
+              <thead>
+                <tr>
+                  <th>IMC</th>
+                  <th>CLASSIFICAÇÃO</th>
+                  <th>OBESIDADE <span>(GRAU)</span></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Menor que 18.5</td>
+                  <td>Magreza</td>
+                  <td class="center">0</td>
+                </tr>
+                <tr>
+                  <td>Entre 18.5 e 24.9</td>
+                  <td>Normal</td>
+                  <td class="center">0</td>
+                </tr>
+                <tr>
+                  <td>Entre 25.0 e 29.9</td>
+                  <td>Sobrepeso</td>
+                  <td class="center">I</td>
+                </tr>
+                <tr>
+                  <td>Entre 30.0 e 39.9</td>
+                  <td>Obesidade</td>
+                  <td class="center">II</td>
+                </tr>
+                <tr>
+                  <td>Maior que 40.0</td>
+                  <td>Obesidade Grave</td>
+                  <td class="center">III</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+
+      </div>
+
+      <div class="imc" id="imc-id">
+
+        <div class="calculadora-imc">
+          <h1 class="titulo">Calcule seu IMC</h1>
+          
+          <form action="/" id="formulario" method="GET">
+
+            <label class="info" for="nome ">Qual o seu nome?</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: João">
+            <label class="info" for="peso">Qual o seu peso?</label>
+            <input type="text" id="peso" name="peso" placeholder="Ex: 70">
+            <label class="info" for="altura">Qual a sua altura?</label>
+            <input type="text" id="altura" name="altura" placeholder="Ex: 1.60">
+            <button id="button" type="submit" onclick="scroll()">Calcular</button>
+
+          </form>
+        </div>
+
+        <div class="resultado">
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="paragrafo">
+      <p>© 2021 João Augusto. Todos os direitos reservados.</p>
+    </div>
+  </footer> 
+  
+  <script src="/info.js"></script>
+  <script src="/main.js"></script>
+
+</body>
+</html>
