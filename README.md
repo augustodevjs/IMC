@@ -1,4 +1,4 @@
-# Calculadora-IMC 
+# [Calcule seu IMC](https://calculadora-imc2021.netlify.app/)
 💻 Mini site de uma Calculadora de IMC utilizando HTML, CSS e JavaScript. 
 
 <p align="left"> 
