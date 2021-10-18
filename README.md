@@ -10,6 +10,21 @@
 - Validação de Input.
 - Manipulação do Dom.
 - Exibição de Erros.
+                                                    
+## Tecnologias utilizadas
 
----
-Feito por João Augusto.
+Nesta calculadora foi utilizadas as seguintes tecnologias:
+
+- HTML
+- CSS
+- JavaScript
+- Figma para criação do Layout
+                                                     
+                                         
+                                                     
+## Acesse o projeto
+
+Hospedado no Netlify
+
+https://calculadora-javascript-2021.netlify.app/
+                                                     
