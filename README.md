@@ -26,5 +26,5 @@ Nesta calculadora foi utilizadas as seguintes tecnologias:
 
 Hospedado no Netlify
 
-https://calculadora-javascript-2021.netlify.app/
+https://calculadora-imc2021.netlify.app/
                                                      
